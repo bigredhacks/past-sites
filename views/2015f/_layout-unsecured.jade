@@ -1,0 +1,16 @@
+//
+   Extendable layout for all unsecured pages
+
+extends _global/_layout
+
+
+
+block header
+
+block content
+    include _navbar
+    block main_content
+
+block footer
+    script(src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js")
+    script(src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/additional-methods.min.js")
